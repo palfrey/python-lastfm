@@ -1,0 +1,8 @@
+docs
+build
+lastfm.egg-info
+debian/*debhelper*
+debian/python-lastfm/
+debian/python-module-stampdir/
+debian/python-lastfm.substvars
+debian/files
