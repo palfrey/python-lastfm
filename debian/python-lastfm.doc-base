@@ -1,0 +1,11 @@
+Document: python-lastfm
+Title: Debian python-lastfm Manual
+Author: <insert document author here>
+Abstract: This manual describes what python-lastfm is
+ and how it can be used to
+ manage online manuals on Debian systems.
+Section: python
+
+Format: HTML
+Index: /usr/share/doc/python-lastfm/html/index.html
+Files: /usr/share/doc/python-lastfm/html/*.html

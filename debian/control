@@ -1,0 +1,23 @@
+Source: python-lastfm
+Section: python
+Priority: extra
+Maintainer: Tom Parker <palfrey@tevp.net>
+Build-Depends: cdbs, debhelper (>= 7.0.50~), python-epydoc
+Standards-Version: 3.8.4
+Homepage: http://code.google.com/p/python-lastfm/
+XS-Python-Version: ${python:Versions}
+#Vcs-Git: git://git.debian.org/collab-maint/python-lastfm.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/python-lastfm.git;a=summary
+
+Package: python-lastfm
+Architecture: any
+Depends: ${python:Depends}
+Provides: ${python:Provides}
+Description: Python last.fm interfaces
+ This package provides a python interface to the last.fm web services API
+ located at http://ws.audioscrobbler.com/2.0/ (documented at 
+ http://www.last.fm/api/intro).
+ .
+ The package covers all the methods provided by the web service API. It also
+ contains some composite methods built upon the methods provided by the web 
+ service API. Authentication and authenticated methods are supported.
